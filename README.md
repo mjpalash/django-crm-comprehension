@@ -1,5 +1,12 @@
 # BottleCRM: Open Source Django CRM for Startups & Enterprises
 
+> **Using this repository for the code-comprehension exercise?**
+> Start with [Classroom Setup](CLASSROOM_SETUP.md).
+>
+> This is a classroom fork of BottleCRM. The original project documentation
+> follows below.
+
+
 A free, self-hosted, multi-tenant CRM built with Django REST Framework, SvelteKit and Flutter.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
