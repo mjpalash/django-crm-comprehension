@@ -74,6 +74,10 @@ docker compose up --build -d
 
 The first run may take several minutes because Docker needs to download and build the required images.
 
+```bash
+docker compose logs backend --tail=50
+```
+
 When the command finishes, run:
 
 ```bash
@@ -96,6 +100,11 @@ docker compose ps
 ```
 
 again.
+
+Wait until the backend has finished starting before continuing. On the first run, BottleCRM applies database migrations automatically. This may take a little time.
+
+docker compose exec backend python manage.py migrate
+
 
 ---
 
