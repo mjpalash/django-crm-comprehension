@@ -81,7 +81,7 @@ On the first run, BottleCRM applies database migrations automatically. If the
 backend is still starting or migrations are still running, wait a little and
 run the command again.
 
-When the command finishes, run:
+Then check the services:
 
 ```bash
 docker compose ps
